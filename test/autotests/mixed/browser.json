@@ -1,0 +1,17 @@
+{
+    "dependencies": [
+        {
+            "path": "./foo.js",
+            "slot": "my-inline-slot"
+        },
+        {
+            "path": "./foo.css",
+            "slot": "my-inline-slot"
+        },
+        {
+            "path": "./nested/browser.json",
+            "slot": "another-inline-slot"
+        },
+        "./external.js"
+    ]
+}

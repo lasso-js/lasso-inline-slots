@@ -1,0 +1,37 @@
+{
+  "name": "lasso-inline-slots",
+  "version": "1.0.0",
+  "description": "Lasso plugin that forces designated slots to be inlined",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "rm -rf .cache && npm run mocha && npm run mocha && npm run jshint",
+    "mocha": "mocha --timeout 4000 --ui bdd --reporter spec ./test",
+    "jshint": "jshint src/"
+  },
+  "author": "Patrick Steele-Idem <pnidem@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jshint": "^2.9.2",
+    "lasso": "^2.3.5",
+    "mocha": "^2.4.5"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lasso-js/lasso-inline-slots.git"
+  },
+  "keywords": [
+    "lasso",
+    "lasso-plugin",
+    "inline"
+  ],
+  "bugs": {
+    "url": "https://github.com/lasso-js/lasso-inline-slots/issues"
+  },
+  "homepage": "https://github.com/lasso-js/lasso-inline-slots#readme"
+}

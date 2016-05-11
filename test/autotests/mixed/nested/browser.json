@@ -1,0 +1,6 @@
+{
+    "dependencies": [
+        "./nested.js",
+        "./nested.css"
+    ]
+}
